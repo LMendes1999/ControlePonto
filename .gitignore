@@ -1,3 +1,5 @@
 # Diretórios de build
 target/
 build/
+#Credenciais de acesso a API
+client_secret.json

@@ -15,3 +15,6 @@ Após a autorização do usuário, a aplicação cria um serviço do Google Driv
 A aplicação então utiliza a API do Google Sheets para buscar pela data atual na coluna A da planilha. Se a data atual é encontrada, a aplicação procura pela primeira célula vazia nas colunas D, E, F, G, H ou I da linha correspondente à data encontrada e insere um registro de ponto com a data e hora atual. Se a data atual não é encontrada na planilha, a aplicação exibe uma mensagem de erro.
 
 Os métodos implementados na classe ControlePonto são executados na ordem em que são definidos na classe principal. Se alguma das etapas falhar, a aplicação exibe uma mensagem de erro e interrompe a execução.
+
+> **Importante**
+> Essa aplicação utiliza uma credencial privada para solicitar consentimentos de uso, para compilar o projeto corretamente, é necessário incluir no projeto uma credencial com escopo do Google Drive e do Google Sheets
